@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+a:link, a:visited {
+	color: #5db5bd;
+}
+a:hover {
+	text-decoration: none;
+}
+body {
+	color: #434343;
+}
+.wrapper, .header-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper, .header-wrapper, .footer-wrapper {
+	margin: 0 auto;
+    max-width: 960px;
+}
+.header {
+	background: #5DB5BD;
+}
+.header p.logo {
+	margin-top: 35px;
+}
+.header-wrapper {
+	height: 130px;
+}
+article {
+	width: 760px;
+	
+}
+aside {
+	width: 130px;
+	
+}
+.home {
+    background: url(https://kiyaku.jp/images/nav_home_ov.gif) 0 20px no-repeat;
+	padding-top: 20px;
+}
+/*ホバー時の画像--------------------*/
+.hover a{
+    display: block;
+}
+.hover img{
+    border: none;
+}
+.hover a:hover{
+    background: none;
+}
+.hover a:hover img{
+    visibility: hidden;
+}
+/*aside--------------------------*/
+aside .hinagata {
+	margin: 50px 0 0;
+}
+aside ul,footer ul{
+	list-style: none;
+}
+aside ul {
+	letter-spacing: 0.2px;
+    line-height: 154%;
+    font-size: 15.2px;
+}
+aside ul li {
+	margin: 20px 0;
+}
+aside ul li a {
+	font-size: 15.2px;
+}
+aside .hinagata-img {
+	display: block;
+    width: 130px;
+    height: 120px;
+}
+aside .faq {
+	background: url("https://kiyaku.jp/images/nav_hinagata_faq_ov.gif") ;
+}
+aside .message {
+	background: url(https://kiyaku.jp/images/nav_hinagata_bengoshi_ov.gif);
+}
+aside .consul {
+	background: url(https://kiyaku.jp/images/nav_hinagata_contact_ov.gif);
+}
+/*footer------------------------------------*/
+.footer {
+	margin: 40px 0 0 0;
+}
+.footer-wrapper {
+	position: relative;
+	padding: 40px 0;
+	border-top: 1px solid #dedede;
+}
+.footer-wrapper p {
+	position: absolute;
+	right: 0;
+	top: 40px;
+}
+.footer-wrapper-min ul {
+	display: flex;
+}
+.footer-wrapper .lower {
+	margin: 38px 0 0 176px;
+}
+.footer a {
+	font-size: 14.4px;
+	display: block;
+}
+.footer .lower a {
+	padding: 20px 20px 20px 0;
+}
+.footer .icon {
+	padding-right: 20px;
+    background: url("../img/icon_newwin.gif") no-repeat 100% 50%;
+}
+.footer .upper li:nth-child(odd) {
+	padding-right: 26px;
+}
+.footer .lower li {
+	margin-left: 20px;
+}
+/*article----------------------*/
+article {
+	margin: 50px 0 0;
+}
+
+
+
+

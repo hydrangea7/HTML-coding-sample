@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+.header {
+    background: #5db5bd url(https://kiyaku.jp/images/home_head_back.gif) top center;
+    height: 160px;
+}
+.header-logo {
+	    border-style: none;
+		margin: 40px 0 0 152px;
+}
+.temp {
+    display: block;
+}
+p {
+	text-align: center;
+	font-size: 0.95em;
+    line-height: 140%;
+	padding-bottom: 10px;
+}
+a:link, a:visited {
+	color:#5DB5BD;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	height: 240px;
+}
+.bg-color {
+	background: #acbd5d;
+	height: 170px;
+}
+.footer {
+	border-top: 1px solid #dedede;
+	margin: 40px auto 0;
+	max-width: 960px;
+	font-size: 0.9em;
+}
+.footer img {
+	vertical-align: top;
+}
+.footer ul li a:nth-child(n+2) {
+	padding-left: 20px;
+}
+.footer-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+.footer ul {
+	list-style: none;
+}
+.sitelink-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 60px;
+}
+.footer-icon {
+	vertical-align: middle;
+}
+span {
+	background: url(../images/icon_newwin.gif) no-repeat 100% 50%;
+    padding-right: 20px;
+}
+.sitelink-wrapper ul li a:nth-child(n+2){
+	padding-left: 15px;
+}
+a:hover {
+	text-decoration: none;
+}
+/*----------------jsをcssで再現-------------------------------*/
+.js-temp {
+	background: url(https://kiyaku.jp/images/home_bnr_hinagata_ov.gif); 
+	width: 170px;
+	height: 80px;
+	margin: 31px auto 10px;
+}
+.js a {
+	display: block;
+}
+.js img {
+	border: none;
+}
+.js a:hover {
+	background: none;
+}
+.js a:hover img {
+	visibility: hidden;
+}
+.js-g-terms {
+	background: url(https://kiyaku.jp/images/home_bnr_hinagata_gp_ov.gif);
+	width: 320px;
+}
+.js-sns-terms {
+	background: url(https://kiyaku.jp/images/home_bnr_hinagata_sns_ov.gif);
+	width: 318px;
+}
+.js-privacy {
+	background: url(https://kiyaku.jp/images/home_bnr_hinagata_privacy_ov.gif);
+	width: 320px;
+}
+.js-qa {
+	background: url(https://kiyaku.jp/images/home_bnr_faq_ov.gif);
+	width: 320px;
+}
+.js-mess {
+	background: url(https://kiyaku.jp/images/home_bnr_bengoshi_ov.gif);
+	width: 318px;
+}
+.js-consul {
+	background: url(https://kiyaku.jp/images/home_bnr_contact_ov.gif);
+	width: 320px;
+}
+
+/*---------------------スマホ用---------------*/
+@media (max-width: 600px) {
+	.header {
+		background: #5db5bd;
+	}
+	.header-logo {
+		margin: 40px 27%;
+	}
+	p:nth-child(2) {
+		background: #f0e4ae;
+		padding: 26px;
+		margin: 0 26px;
+	}
+	.wrapper01 {
+		flex-direction: column;
+		margin: 0 17%;
+		margin-top: 252px;
+	}
+	.bg-color {
+		flex-direction: column;
+   	 	margin: 0 17%;
+    	margin-top: 410px;
+		background: #fff;
+		margin-bottom: 41%;
+
+	}
+	.js-g-terms, .js-sns-terms, .js-privacy {
+		height: 240px;
+	}
+	.js-qa {
+		height: 170px;
+	}
+	.js-mess {
+		height: 170px;
+    	width: 320px;
+    	background: #acbd5d;	
+	}
+	.js-consul {
+		height: 170px;
+	}
+	.footer-wrapper {
+		padding: 0;
+	}
+	.sitelink-wrapper {
+		display: block;
+	}
+	.footer {
+		text-align: center;
+		font-size: 1.2rem;
+		border: none;
+	}
+	.footer ul li a:nth-child(n+2) {
+		padding: 10px;
+	}
+	.footer a {
+		display: block;
+		text-decoration: none;
+		border-bottom: 1px solid #5DB5BD;
+	}
+	.footer img {
+		position: relative;
+   	 	top: 200px;
+    	right: 8px;
+
+	}
+	.footer-wrapper {
+		display: block;
+	}
+	.footer-wrapper a.img {
+		height: 0;
+		border: none;
+	}
+	.footer a:not(.img) {
+		padding: 14px;
+	}
+	.footer a span {
+		padding: 14px -1px;
+		margin: 0 50px;
+	
+	}
+}
