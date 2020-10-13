@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+article h1 {
+    margin: 0 0 50px 0;
+    font-size: 32px;
+    line-height: 140%;
+}
+.wrapper-inner {
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper-inner .left {
+	width: 244px;
+}
+.wrapper-inner .left p {
+	text-align: center;
+}
+.wrapper-inner .left p img.name {
+	margin: 3px 0 1px;
+}
+.wrapper-inner .left a {
+	font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+	padding: 0 20px 0 0;
+    background: url(../images/icon_newwin.gif) no-repeat 100% 50%;
+	letter-spacing: 0.2px;
+}
+.wrapper-inner .right {
+	width: 465px;
+}
+.wrapper-inner .right p {
+	font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: justify;
+	letter-spacing: 0.2px;
+}
+.wrapper-inner .right p:nth-child(n+2) {
+	margin-top: 15px;
+}
+.wrapper-inner .table {
+	margin: 15px 0 0 0;
+    padding: 10px 0 5px 0;
+    background: #f1f0e8;
+}
+.wrapper-inner .table th {
+	flex-wrap: 700;
+	font-size: 12px;
+	line-height: 17px;
+	color: #434343;
+	padding: 5px 15px;
+    white-space: nowrap;
+	text-align: left;
+}
+.wrapper-inner .table tr:nth-child(2) th {
+	vertical-align: top;
+}
+.wrapper-inner .table td {
+	flex-wrap: 500;
+	font-size: 12px;
+	line-height: 17px;
+	color: #434343;
+	padding: 5px 15px 5px 0;
+}
+.wrapper-inner .table ul {
+	margin-left: 20px;
+}
+.wrapper-inner .table ul li {
+	margin-bottom: 5px;
+}
+.hover a:hover img.display {
+    visibility: visible;
+}
