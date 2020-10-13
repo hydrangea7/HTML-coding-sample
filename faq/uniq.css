@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+article .box {
+	border-radius: 15px;
+    margin: 20px 0;
+    background: #eff5f6;
+    border: 5px solid #e5eeef;
+    padding: 20px;
+}
+article h1 {
+	margin: 0 0 50px 0;
+    font-size: 32px;
+    line-height: 140%;
+}
+article p {
+	font-size: 15px;
+    line-height: 24px;
+    margin: 20px 30px;
+    letter-spacing: 0.2px;
+}
+article p.date {
+	text-align: right;
+    margin: 20px 30px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.16px;
+}
+article .box h1 {
+	margin: 0 0 30px 0;
+}
+article .box p {
+	line-height: 1.6;
+}
+article .box ol {
+	margin: 20px 0 0 40px;
+    font-size: 15px;
+    line-height: 140%;
+	letter-spacing: 0.2px;
+}
+article .box ol li {
+	margin: 10px 0 0 0;
+}
+article .box h2 {
+	margin: 30px 0 20px 0;
+}
+article p.end {
+	text-align: right;
+    margin: 30px 0 0 0;
+}
+
+article h2 {
+	margin: 50px 0 40px;
+	line-height: 34px;
+}
+article h3 {
+	font-size: 22.4px;
+    line-height: 36px;
+    font-weight: 400;
+    background: #acbd5d url(https://kiyaku.jp/faq/images/icon_q.gif) no-repeat 15px 50%;
+    color: #fff;
+    padding: 10px 15px 10px 80px;
+    border-radius: 8px;
+    margin: 40px 0 30px 0;
+    letter-spacing: 0.03px;
+}
+article h3 span {
+	display: block;
+    font-size: 24.64px;
+    font-weight: bold;
+    line-height: 39px;
+}
+article .bg-color {
+	background: #efefef;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 30px 25px 0;
+}
+article div.bg-color p {
+	margin: 0;
+	letter-spacing: 0.2px;
+}
+article ol {
+	margin: 20px 0 20px 50px;
+}
+ol.outer li {
+	margin-bottom: 14px;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+ol.inner li {
+	font-size: 14px;
+    list-style: outside lower-alpha;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
